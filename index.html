@@ -2,12 +2,12 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>ROBERTO-TELEFLIX</title>
+  <title>GRDENAA-TELEFLIX</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>ROBERTO-TELEFLIX</h1>
+    <h1>GRDENAA-TELEFLIX</h1>
   </header>
 
   <!-- LAYOUT: MENU LATERAL (ESQ) + VÍDEO (DIR) -->
@@ -18,15 +18,15 @@
       <section style="padding:12px 0;">
         <label for="tema" style="color:#BDC3C7; margin-right:8px;">ESCOLHA O TEMA:</label>
         <select id="tema">
-          <option value="LOUVOR">LOUVOR</option>
-          <option value="MENSAGENS">MENSAGENS</option>
-          <option value="INFANTIL">INFANTIL</option>
-          <option value="AULAS">AULAS</option>
+          <option value="CARRO">CARRO</option>
+          <option value="CAMINHAO">CAMINHAO</option>
+          <option value="SURF">SURF</option>
+          <option value="MMA">MMA</option>
         </select>
       </section>
 
       <!-- Menu dinâmico gerado via JS -->
-      <nav class="nav-vertical" aria-label="Lista de vídeos do tema">
+      <nav class="nav-vertical" aria-"label="Lista de vídeos do tema">
         <ul id="menu-temas"><!-- Itens gerados via JS --></ul>
       </nav>
 
@@ -71,29 +71,29 @@
   <script>
     // Mapa de temas → lista de vídeos
     const TEMAS = {
-      LOUVOR: [
-        { titulo: "EU SOU TEU PAI", 
-         autor: "VALESCA MAYSSA", 
-         url: "https://www.youtube.com/watch?v=kNJPalON82E" 
+      CARRO: [
+        { titulo: "SUPER CARRO ACELERANDO", 
+         autor: "V12", 
+         url: "https://youtu.be/kzGDz27jo4w?si=rN733B7GQ-7oq3jL" 
         },
-        { titulo: "DEUS DE PROMESSAS", 
-         autor: "MINISTÉRIO APASCENTAR", 
-         url: "https://youtu.be/93XkdakMp00?si=-S0mta76Kc_GxWhd" 
+        { titulo: "Tuner Cars Accelerating! 200SX, Novitec 812SF, TechArt Panamera, Aventador SVJ, 1000HP Supra, RS6 ", 
+         autor: "GUMBAL", 
+         url: "https://youtu.be/G2v2-H7r6vg?si=1MgwOnHiEfTGf4di" 
         },
-        { titulo: "NINGUÉM EXPLICA DEUS", 
-         autor: "PRETO NO BRANCO", 
-         url: "https://youtu.be/LYsaKn8FRhc?si=R7yN3htfuafehfSw" 
+        { titulo: "https://youtu.be/G2v2-H7r6vg?si=1MgwOnHiEfTGf4di", 
+         autor: "CURVA 1", 
+         url: "https://youtu.be/fwtddWj6LIA?si=3qfrPY9953wEa1mk" 
         },
       ],
       MENSAGENS: [
-        { titulo: "O TEMPO É CURTO; FAÇA O MELHOR USO DO SEU TEMPO", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/fmsAqGy2pCM?si=u8aCy5Lwjoj80xAB" 
+        { titulo: "TOP MELHORES VÍDEOS DE CAMINHÃO DA SAFRA DA BATATA 2024 | AO SOM DO DJ WAGNER #2", 
+         autor: "RILL VIDEOS", 
+         url: "https://youtu.be/BrSG0ortwIc?si=BCBrFbcL9zGZ84lH" 
         },
-        { titulo: "QUEM É JESUS CRISTO?", 
-         autor: "BILLY GRAHAM EM PORTUGUÊS", 
-         url: "https://youtu.be/6ATJ6avomUg?si=4_qlxZGejDlxVyz5" 
-        },
+        { titulo: "OS 1620 MAIS INSANOS DA RODAGEM | AO SOM DO DJ WAGNER", 
+         autor: "RILL VIDEOS", 
+         url: "https://youtu.be/EdxAwUVb-EM?si=L1JbyUoBiX9CsM9a" 
+        },5
       ],
       INFANTIL: [
         { titulo: "SOY UNA TAZA", 
